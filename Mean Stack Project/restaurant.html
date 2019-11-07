@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Restaurants</title>
+<link rel="stylesheet" type="text/css" href="restaurant.css">
+</head>
+<body>
+<div id="divmain">
+      <img src="logo.png" id="logo">
+      <div class="tabs">
+        <ul>
+	<li><a href="homeUltra.html">Home</a></li>
+	<li><a href="onlinereservation.html">Reservations</a>
+	</li>
+	<li><a href="restaurant.html">Restaurant</a>
+	</li>
+	<li><a href="spahealth.html">Fitness &amp; Spa</a>
+	</li>
+	<li><a href="feedback.html">Feedback</a></li>
+</ul>
+      </div>
+<div id="aboutus">
+  <a href="mailto:enquiry@peaceandlodge.com">Contact Us </a>|
+  <a href="aboutus.html"> About Us </a>
+</div>
+</div>
+<div id= "BACKGROUND">
+<h1 id="borderimg"> WELCOME TO THE<br>PEACE &amp; LODGE RESTAURANT<br></h1>                                                      <h3 style=margin-top:390px;"><br>" Best In The World " </h3>
+ <div id="PRICE">
+    <div id="price_tag">
+  <h1 style="margin-top:140px;font-size:70px;"><u>"GREAT AFFORDABLE PRICE"</u></h1>
+  <h2 style="color:purple;marginleft:500px;margintop:350px;fontsize:50px">With Attractive Combo Offers!</h2>
+    </div>
+ </div>
+
+
+  <div id="price_menu">
+    <div id="menu">
+        <img src="food5.jpg" height="80%" width="100%">
+	<h5><u>Burger king:Rs.200/-</u></h5>
+    </div>
+
+    <div id="menu">
+        <img src="f4.jpg" height="80%" width="100%">
+        <h5><u>Mutton Biryani:Rs.300/-</u></h5>
+    </div>
+
+   <div id="menu">
+        <img src="food2.jpg" height="80%" width="100%">
+        <h5><u>Mexican Fries:Rs.380/-</u></h5>
+    </div>
+
+    <div id="menu">
+        <img src="food3.jpg" height="80%" width="100%">
+        <h5><u>Delicios Delight:Rs.400/-</u></h5>
+    </div>
+    <div id="menu">
+        <img src="food4.jpg" height="80%" width="100%">
+        <h5><u>Non-Veg Combo:Rs.550/-</u></h5>
+    </div>
+    <div id="menu">
+        <img src="food8.jpg" height="80%" width="100%">
+        <h5><u>Chicken Wings:Rs.450/-</u></h5>
+    </div>
+    <div id="menu">
+        <img src="kabob.jpg" height="80%" width="100%">
+        <h5><u>Afghani Kabab:Rs.550/-</u></h5>
+    </div>
+    <div id="menu">
+        <img src="s2.jpg" height="80%" width="100%">
+	<h5><u>Kadhi Pakoda:Rs.250/-</u></h5>
+     </div>
+
+   </div>
+
+   <div id="DISH">
+    <div id="dish_tag">
+	<h1 style="margin-top:0px;font-size:80px;">"OUR <u>FEATURED</u> DISHES           <u>MENU"</u></h1>
+    </div>
+  </div>
+
+    <div id="dish1">
+     <div id="dish1_det">
+      <h2 style="color:purple;font-family:algerian;">*Have A Look<br>TO Our Dishes* ::</h2>
+      <h4>Each food is handmade at the crack of dawn, using only the simplest of ingredients to bring out smells and flavors that beckon the whole block. Stop by anytime and experience simplicity at its finest.</h4>
+        </div>
+
+        <div class="content">
+
+       <img class="mySlides " src="slider1.jpg" >
+       <img class="mySlides " src="slider2.jpg" >
+       <img class="mySlides " src="slider3.jpg" >
+       <img class="mySlides " src="food1.jpg" >
+       <img class="mySlides " src="food6.jpg" >
+
+       </div>
+
+     </div>
+
+    <div id="SERVICE">
+    <div id="service_tag">
+   <h1 style="margin-top:0px;font-size:80px;color:gold">"ENJOY OUR    <u>*SERVICE*</u>ANY TIME<h1>
+      <h2 style="color:black;font-size:60px;"><u>With ROOM SERVICE Available also!!!</h2>
+    </div>
+  </div>
+
+
+ </div>
+</div>
+
+
+
+    <div id="footer">
+
+    </div>
+    <div id="foottext">
+      <a href="home.html">www.peaceandlodge.com </a>
+      <a href="mailto:inquiry@www.peaceandlodge.com"> | Contact Us</a>
+      <a href="trial.html">| Our Chatbot</a>
+    </div>
+    <div id="footimga">
+      <a href="#"><img src="pin.png" class="footimg1"></a>
+      <a href="#"><img src="twitter.png" class="footimg1"></a>
+      <a href="#"><img src="gplus.png" class="footimg1"></a>
+
+    </div>
+    <div id="footimgb">
+      <a href="#"><img src="whatsapp.png" class="footimg2"></a>
+      <a href="#"><img src="fb.png" class="footimg2"></a>
+      <a href="#"><img src="insta.png" class="footimg2"></a>
+    </div>
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+function carousel()
+ {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 1000);
+  }
+</script>
+
+
+
+
+</body>
+</html>
